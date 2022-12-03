@@ -1,0 +1,2 @@
+2022-12-02T17:51:33+00:00 CRITICAL Out of memory (allocated 121634816) (tried to allocate 110592 bytes) in C:\xampp\htdocs\Ballers\wp-includes\class-wpdb.php on line 2187
+

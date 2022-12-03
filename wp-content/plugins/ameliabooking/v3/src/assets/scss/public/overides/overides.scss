@@ -1,0 +1,54 @@
+.amelia-v2-booking {
+  #amelia-container {
+    .el-form {
+      &-item {
+        display: block;
+        font-family: var(--am-color-text);
+        font-size: var(--am-fs-label);
+        margin-bottom: 18px;
+
+        &__label {
+          flex: 0 0 auto;
+          text-align: left;
+          font-size: var(--am-fs-label);
+          line-height: 1.3;
+          color: var(--am-color-text);
+          box-sizing: border-box;
+        }
+
+        &.is-required {
+          .el-form-item__label {
+            position: relative;
+            padding-left: 10px;
+            &:before {
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+          }
+        }
+
+        &__content {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          flex: 1;
+          position: relative;
+          font-size: var(--am-fs-input);
+          min-width: 0;
+        }
+
+        &__error {
+          font-size: 12px;
+          padding-top: 4px;
+        }
+      }
+    }
+
+    .el-input {
+      &__inner {
+        margin: 0;
+      }
+    }
+  }
+}

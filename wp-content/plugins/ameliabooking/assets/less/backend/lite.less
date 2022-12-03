@@ -1,0 +1,297 @@
+.am-lite {
+  color: #354052;
+
+  &.am-lite-popover {
+    background-color: #323648;
+
+    .am-lite-popover-content {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      color: #ffffff;
+      text-decoration: underline;
+
+      img.am-lite-popover-icon {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &.am-lite-block {
+    background-color: #323648;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .am-lite-block-text {
+      text-align: left;
+      font-size: 14px;
+      font-weight: 500;
+      color: #ffffff;
+      line-height: normal;
+    }
+
+    .am-lite-block-icon {
+      margin: 5px;
+    }
+
+    .am-lite-block-button {
+      margin-left: auto;
+      margin-right: 10px;
+      width: 110px;
+      height: 55px;
+    }
+  }
+
+  &.am-lite-dialog {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 16px;
+    line-height: 1.33;
+    color: #354052;
+
+    .am-lite-dialog-image-illus-left {
+      position: absolute;
+      left: 0;
+      height: 310px;
+      top: 122px;
+    }
+
+    .am-lite-dialog-image-illus-right {
+      position: absolute;
+      right: -15px;
+      height: 175px;
+      top: 187px;
+
+    }
+
+    .am-lite-dialog-title {
+      max-width: 258px;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 33px;
+      color: #181059;
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .am-lite-dialog-description {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      max-width: 351px;
+      color: #010BFE;
+      margin: 0 auto 25px;
+    }
+
+    .tms-store-checkout-ameliabooking {
+      margin: 24px auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 20px;
+      gap: 10px;
+      width: 212px;
+      height: 45px;
+      background: linear-gradient(351.76deg, #FFD601 -8.07%, #FCFF7D 123.41%);
+      border-radius: 62px;
+      border: none;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 17px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #011CA4;
+
+      &:hover {
+        opacity: 0.8;
+        border: none;
+      }
+    }
+
+    .am-lite-features {
+      .el-col {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+
+        .am-lite-check {
+          content: url("../../img/check-dark-blue.svg");
+          display: inline-block;
+          vertical-align: middle;
+        }
+        span {
+          line-height: 22px;
+          font-size: 16px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    color: #181059;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  .am-span-yellow {
+    color: #FFD721;
+  }
+
+  .am-many-more {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px !important;
+
+    span {
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 29px;
+      text-align: center;
+      color: #010BFE;
+    }
+  }
+}
+
+.am-lite-dialog-no-margin {
+  margin-bottom: 0 !important;
+  padding: 10px 20px !important;
+  overflow-x: hidden !important;
+  background: url("../../img/am-promo-bg.png") no-repeat;
+  background-size: cover;
+
+  .am-dialog-header {
+    border-bottom: none !important;
+  }
+
+  button.am-dialog-close {
+    background: transparent;
+    border: none;
+    .el-icon-close {
+      content: url("../../img/close.svg");
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  .am-promo-banner-title {
+    background: linear-gradient(351.76deg, #FFD601 -8.07%, #FCFF7D 123.41%);
+    border-radius: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 30px;
+
+    h2 {
+      font-style: italic;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #011CA4;
+    }
+  }
+  .am-promo-banner-subtitle {
+    text-align: center;
+    p {
+      margin-top: 5px;
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #011D9D;
+    }
+
+  }
+
+  .pre-purchase-q {
+    a {
+      color: #010BFE;
+    }
+  }
+
+  .am-discounts-holder {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    > div {
+      background: linear-gradient(162.67deg, #000AFF 8.32%, #00237C 88.11%);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      height: 65px;
+      width: 145px;
+      align-items: center;
+      justify-content: center;
+      transform: skewX(170deg);
+
+      .discount-number {
+        margin: 0;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFE224;
+        transform: skewX(-170deg);
+      }
+     .licence-name {
+       font-size: 14px;
+       line-height: 15px;
+       letter-spacing: 0.03em;
+       text-transform: uppercase;
+       text-align: center;
+       margin: 0;
+       font-weight: 600;
+       color: #FFE224;
+       transform: skewX(-170deg);
+     }
+    }
+  }
+}
+
+.am-lite-calendar {
+  .fc-day-button, .fc-month-button, .fc-timelineDay-button, .fc-listWeek-button {
+    opacity: 0.4 !important;
+    pointer-events: none;
+  }
+}
+
+.am-lite-popover.el-popper[x-placement^=bottom] .popper__arrow:after {
+  border-bottom-color: #323648;
+}
+
+.am-lite-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.am-lite-container-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
